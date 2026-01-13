@@ -63,8 +63,9 @@ It is **not** an official reproduction of the ECTSum paper.
 
 1. Clone the repository
 2. Install dependencies from `requirements.txt`
-3. Download the ECTSum dataset 
-4. Run `notebooks/finetune_ect.ipynb` to fine-tune
-5. Run `notebooks/base_test.ipynb` and `notebooks/ft2_test.ipynb` for evaluation
-6. Use `notebooks/final_comparison.ipynb` to compare results
+3. Download the ECTSum dataset
+4. Add HuggingFace tokens to Colab Secrets (ensure that the token has WRITE access to push adapters to HF HUB)
+5. Run `notebooks/finetune_ect.ipynb` to fine-tune
+6. Run `notebooks/base_test.ipynb` and `notebooks/ft2_test.ipynb` for evaluation
+7. Use `notebooks/final_comparison.ipynb` to compare results
 
